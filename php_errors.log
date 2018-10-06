@@ -1,0 +1,23 @@
+[25-Mar-2018 17:36:58 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/php-basics-s4v1/index.php on line 40
+[25-Mar-2018 17:36:58 UTC] PHP Stack trace:
+[25-Mar-2018 17:36:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-basics-s4v1/index.php:0
+[25-Mar-2018 17:36:58 UTC] PHP   2. date() /home/ubuntu/workspace/php-basics-s4v1/index.php:40
+[25-Mar-2018 18:05:21 UTC] PHP Warning:  include(inc/exersise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php-basics-s4v1/index.php on line 40
+[25-Mar-2018 18:05:21 UTC] PHP Stack trace:
+[25-Mar-2018 18:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-basics-s4v1/index.php:0
+[25-Mar-2018 18:05:21 UTC] PHP Warning:  include(): Failed opening 'inc/exersise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-basics-s4v1/index.php on line 40
+[25-Mar-2018 18:05:21 UTC] PHP Stack trace:
+[25-Mar-2018 18:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-basics-s4v1/index.php:0
+[25-Mar-2018 18:06:38 UTC] PHP Warning:  require(): Filename cannot be empty in /home/ubuntu/workspace/php-basics-s4v1/index.php on line 40
+[25-Mar-2018 18:06:38 UTC] PHP Stack trace:
+[25-Mar-2018 18:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-basics-s4v1/index.php:0
+[25-Mar-2018 18:06:38 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php-basics-s4v1/index.php on line 40
+[25-Mar-2018 18:06:38 UTC] PHP Stack trace:
+[25-Mar-2018 18:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php-basics-s4v1/index.php:0
+[02-Apr-2018 17:01:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/server-info.php on line 10
+[02-Apr-2018 17:04:00 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/server-info.php on line 12
+[02-Apr-2018 17:10:42 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/index.php on line 14
+[02-Apr-2018 17:12:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/index.php on line 15
+[02-Apr-2018 17:17:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/index.php on line 30
+[02-Apr-2018 17:37:02 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/website2/index.php on line 28
+[02-Apr-2018 17:37:12 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/website2/index.php on line 28
