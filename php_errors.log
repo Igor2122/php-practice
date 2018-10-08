@@ -21,3 +21,33 @@
 [02-Apr-2018 17:17:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/website2/index.php on line 30
 [02-Apr-2018 17:37:02 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/website2/index.php on line 28
 [02-Apr-2018 17:37:12 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/website2/index.php on line 28
+[06-Oct-2018 09:16:25 UTC] PHP Fatal error:  Call to undefined function strtime() in /home/ubuntu/workspace/specialist-php/index.php on line 3
+[06-Oct-2018 09:16:25 UTC] PHP Stack trace:
+[06-Oct-2018 09:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[06-Oct-2018 11:46:00 UTC] PHP Fatal error:  Call to undefined function inclde() in /home/ubuntu/workspace/specialist-php/index.php on line 8
+[06-Oct-2018 11:46:00 UTC] PHP Stack trace:
+[06-Oct-2018 11:46:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[06-Oct-2018 11:46:59 UTC] PHP Warning:  include(includes.header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/specialist-php/index.php on line 8
+[06-Oct-2018 11:46:59 UTC] PHP Stack trace:
+[06-Oct-2018 11:46:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[06-Oct-2018 11:46:59 UTC] PHP Warning:  include(): Failed opening 'includes.header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/specialist-php/index.php on line 8
+[06-Oct-2018 11:46:59 UTC] PHP Stack trace:
+[06-Oct-2018 11:46:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[06-Oct-2018 12:18:07 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/specialist-php/index.php on line 24
+[06-Oct-2018 12:18:33 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/specialist-php/index.php on line 24
+[06-Oct-2018 12:21:00 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/specialist-php/index.php on line 23
+[07-Oct-2018 11:47:05 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/specialist-php/index.php on line 32
+[07-Oct-2018 11:47:12 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/specialist-php/index.php on line 32
+[07-Oct-2018 12:00:21 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/specialist-php/includes/content.php on line 24
+[07-Oct-2018 12:00:21 UTC] PHP Stack trace:
+[07-Oct-2018 12:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[07-Oct-2018 12:08:29 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/specialist-php/includes/if.php on line 6
+[07-Oct-2018 12:08:29 UTC] PHP Stack trace:
+[07-Oct-2018 12:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 04:59:49 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/if.php on line 59
+[08-Oct-2018 04:59:49 UTC] PHP Stack trace:
+[08-Oct-2018 04:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 04:59:59 UTC] PHP Fatal error:  Undefined constant 'n' in /home/ubuntu/workspace/specialist-php/includes/if.php on line 57
+[08-Oct-2018 04:59:59 UTC] PHP Stack trace:
+[08-Oct-2018 04:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 04:59:59 UTC] PHP   2. include() /home/ubuntu/workspace/specialist-php/index.php:17
