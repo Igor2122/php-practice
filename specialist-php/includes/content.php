@@ -24,7 +24,7 @@
     <h2>This is <?= $mon?></h2>
     <h2><?= $dob?></h2>
     <h3><?= $len ?></h3>
-    <h3>Rerurn the # from the string: '(int)$x': <?= (int)$x .' from var ' . $x ?></h3>
-    <h3>Rerurn the # from the string: '(str)$x': <?= (string)$x .' from var ' . $x ?></h3>
-    <h3>Rerurn the # from the string: '(str)$x': <?= (bool)$x .' from var ' . $x ?></h3>
+    <!--<h3>Rerurn the # from the string: '(int)$x': <?= (int)$x .' from var ' . $x ?></h3>-->
+    <!--<h3>Rerurn the # from the string: '(str)$x': <?= (string)$x .' from var ' . $x ?></h3>-->
+    <!--<h3>Rerurn the # from the string: '(str)$x': <?= (bool)$x .' from var ' . $x ?></h3>-->
     <h2><?= $welcome?>, Guest</h2>

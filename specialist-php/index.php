@@ -14,7 +14,10 @@ ENDHEREDOC;
 
     include 'includes/content.php';
     
-    include 'includes/if.php';
+    // include 'includes/if.php';
+    include 'includes/partials/_nav.php';
+    
+    include 'includes/arrays.php';
 
     include 'includes/footer.php';
     

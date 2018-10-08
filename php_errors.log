@@ -51,3 +51,15 @@
 [08-Oct-2018 04:59:59 UTC] PHP Stack trace:
 [08-Oct-2018 04:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
 [08-Oct-2018 04:59:59 UTC] PHP   2. include() /home/ubuntu/workspace/specialist-php/index.php:17
+[08-Oct-2018 16:36:41 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/specialist-php/includes/arrays.php on line 27
+[08-Oct-2018 16:36:41 UTC] PHP Stack trace:
+[08-Oct-2018 16:36:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 16:36:48 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/specialist-php/includes/arrays.php on line 27
+[08-Oct-2018 16:36:48 UTC] PHP Stack trace:
+[08-Oct-2018 16:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 16:54:04 UTC] PHP Warning:  include(includes/partials/if.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/specialist-php/index.php on line 18
+[08-Oct-2018 16:54:04 UTC] PHP Stack trace:
+[08-Oct-2018 16:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[08-Oct-2018 16:54:04 UTC] PHP Warning:  include(): Failed opening 'includes/partials/if.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/specialist-php/index.php on line 18
+[08-Oct-2018 16:54:04 UTC] PHP Stack trace:
+[08-Oct-2018 16:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
