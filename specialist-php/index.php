@@ -12,10 +12,11 @@ ENDHEREDOC;
     
     include  'includes/header.php';
 
+    include 'includes/partials/_nav.php';
+    
     include 'includes/content.php';
     
     // include 'includes/if.php';
-    include 'includes/partials/_nav.php';
     
     include 'includes/arrays.php';
     

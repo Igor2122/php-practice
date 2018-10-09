@@ -70,3 +70,25 @@
 [09-Oct-2018 10:35:07 UTC] PHP Stack trace:
 [09-Oct-2018 10:35:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
 [09-Oct-2018 10:35:07 UTC] PHP   2. include() /home/ubuntu/workspace/specialist-php/index.php:22
+[09-Oct-2018 16:21:40 UTC] PHP Fatal error:  Call to undefined function extands() in /home/ubuntu/workspace/specialist-php/table.php on line 2
+[09-Oct-2018 16:21:40 UTC] PHP Stack trace:
+[09-Oct-2018 16:21:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/table.php:0
+[09-Oct-2018 16:31:33 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/specialist-php/table.php on line 30
+[09-Oct-2018 16:31:38 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/specialist-php/table.php on line 30
+[09-Oct-2018 17:00:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/table.php on line 34
+[09-Oct-2018 17:24:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/specialist-php/table.php on line 27
+[09-Oct-2018 18:05:45 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/partials/_nav.php on line 22
+[09-Oct-2018 18:05:45 UTC] PHP Stack trace:
+[09-Oct-2018 18:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[09-Oct-2018 18:06:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/partials/_nav.php on line 10
+[09-Oct-2018 18:06:37 UTC] PHP Stack trace:
+[09-Oct-2018 18:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[09-Oct-2018 18:12:55 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/partials/_nav.php on line 24
+[09-Oct-2018 18:12:55 UTC] PHP Stack trace:
+[09-Oct-2018 18:12:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[09-Oct-2018 18:23:29 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/partials/_nav.php on line 24
+[09-Oct-2018 18:23:29 UTC] PHP Stack trace:
+[09-Oct-2018 18:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
+[09-Oct-2018 18:26:30 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/ubuntu/workspace/specialist-php/includes/partials/_nav.php on line 24
+[09-Oct-2018 18:26:30 UTC] PHP Stack trace:
+[09-Oct-2018 18:26:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/index.php:0
