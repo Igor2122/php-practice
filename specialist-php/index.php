@@ -18,8 +18,11 @@ ENDHEREDOC;
     include 'includes/partials/_nav.php';
     
     include 'includes/arrays.php';
+    
+    include 'includes/loops.php';
 
     include 'includes/footer.php';
+    
     
 
 
