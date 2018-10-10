@@ -1,6 +1,6 @@
-    <footer class="text-center">
-        <h5 class="fixed-bottom">Copyright <?= $year?></h5>
-    </footer>
+<?php 
+    include 'includes/partials/_footer.php'
+ ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

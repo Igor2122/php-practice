@@ -4,13 +4,9 @@
         ['link'=>'About', 'href' => 'about.php'],
         ['link'=>'Contacts', 'href' => 'contacts.php'],
         ['link'=>'Multiply Table', 'href' => 'table.php'],
+        ['link'=>'Functions', 'href' => 'functions.php'],
         ['link'=>'Calculator', 'href' => 'calculator.php'],
         ];  
-        
-        foreach($leftMenu as $item){
-          echo $item['link'];
-        }
-        
         
     ?> 
     
