@@ -40,12 +40,28 @@
 
 	?>
 
+	<div class="mt-5">
+		
+
+<?php 
+		function math() {
+			return [1,2,3];
+		}
+		
+		list($one, $two, $three) = math(); // this works only with indes array
+		// Opt 1
+		echo $one, $two, $three;
+		// Opt 2
+		$arr2 = math()[2];// this option is availble from the V5.4
+		echo $arr2;
+ ?>
+
+	</div>
+
 </div>
 
 <?php 
 	include 'includes/footer.php';
  ?>
 
-<?php 
-	include 'includes/header.php';
-?>
+

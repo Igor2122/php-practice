@@ -2,9 +2,6 @@
 
 include 'includes/header.php';
 
-include 'includes/partials/_nav.php';
-
-
 $cols = 10;
 $rows = 10;
 $bakcground = 'red';
@@ -12,7 +9,6 @@ $bakcground = 'red';
 
 
 
-include 'includes/footer.php';
 
 function multiplyTable ($cols=10, $rows=10, $bakcground='red'){
 
@@ -44,3 +40,4 @@ multiplyTable(5,5,'red');
 
     
 
+include 'includes/footer.php';

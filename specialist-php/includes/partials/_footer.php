@@ -1,6 +1,8 @@
 <?php 
 $year = strftime('%Y');
+
  ?>
     <footer class="text-center">
-        <h5 class="fixed-bottom">Copyright <?= $year?></h5>
+		<?php drawMenu($leftMenu, false); ?>
+        <h5 class="">Copyright <?= $year?></h5>
     </footer>

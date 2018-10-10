@@ -14,4 +14,6 @@
 
   <?php 
   	include 'includes/partials/_nav.php';
+
+    drawMenu($leftMenu);
    
