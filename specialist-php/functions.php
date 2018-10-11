@@ -45,7 +45,7 @@
 
 <?php 
 		function math() {
-			return [1,2,3];
+			// return [1,2,3];
 		}
 		
 		list($one, $two, $three) = math(); // this works only with indes array
@@ -53,9 +53,77 @@
 		echo $one, $two, $three;
 		// Opt 2
 		$arr2 = math()[2];// this option is availble from the V5.4
-		echo $arr2;
+		// echo $arr2;
  ?>
 
+	</div>
+	
+<div class="mt-5 bg-secondary">
+	<h1>Hi there</h1>
+
+<?php 
+		$string = [1,2,3,4];
+		$emptyArr = [];
+		
+		
+		
+		function my_count ($var, $mode=0) {
+		 if(is_null($var)) return 0;
+		 if(!is_array($var)) return 1;
+		 
+			$count = 0; 
+			foreach($var as $val){
+				if(is_array($val) && $mode = 1)
+					$cnt = my_count($v, 1);
+				$count++;
+			}
+			return $count;
+		}
+		
+		// my_count($emptyArr);
+		// my_count($string);
+		
+		for($i = 0; $i <= my_count($string); $i ++ ) {
+			static $cnt = 0;
+			echo $cnt ++;
+			echo "<h1>$string[$i]</h1>";
+		}
+ ?>
+
+	</div>
+	
+	<div class="mt-5 bg-info">
+		
+		<?php 
+		
+			function foo123() {
+				echo func_num_args() . "<br>"; // return the # of passed elements 
+				print_r( func_get_args()) . "<br>";
+				echo func_get_arg(2) . "<br>";
+			}
+			
+			foo123(1,2,3,4,5);
+		?>
+	</div>
+	<div class="mt-5 bg-warning">
+		
+		<?php 
+		
+			function tpHinting(array $param) {}// here we say that it has to be array type only, the rest will throw an error
+			tpHinting($string);
+			
+			function bar($usr){
+				echo "Hi there $usr";
+			}
+			
+			function callAbale(callable $para, $par ){
+				$para($par);
+			}
+			
+			callAbale("bar", 'igor');
+			
+			
+		?>
 	</div>
 
 </div>
