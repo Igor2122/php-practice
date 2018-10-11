@@ -116,3 +116,16 @@
 [11-Oct-2018 08:53:22 UTC] PHP Stack trace:
 [11-Oct-2018 08:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0
 [11-Oct-2018 08:53:22 UTC] PHP   2. callAbale() /home/ubuntu/workspace/specialist-php/functions.php:123
+[11-Oct-2018 13:28:25 UTC] PHP Warning:  print_r() expects parameter 2 to be boolean, array given in /home/ubuntu/workspace/specialist-php/functions.php on line 133
+[11-Oct-2018 13:28:25 UTC] PHP Stack trace:
+[11-Oct-2018 13:28:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0
+[11-Oct-2018 13:28:25 UTC] PHP   2. print_r() /home/ubuntu/workspace/specialist-php/functions.php:133
+[11-Oct-2018 13:32:38 UTC] PHP Warning:  Illegal string offset 'month' in /home/ubuntu/workspace/specialist-php/functions.php on line 136
+[11-Oct-2018 13:32:38 UTC] PHP Stack trace:
+[11-Oct-2018 13:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0
+[11-Oct-2018 13:32:38 UTC] PHP Warning:  Illegal string offset 'year' in /home/ubuntu/workspace/specialist-php/functions.php on line 137
+[11-Oct-2018 13:32:38 UTC] PHP Stack trace:
+[11-Oct-2018 13:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0
+[11-Oct-2018 13:32:38 UTC] PHP Warning:  Illegal string offset 'weekday' in /home/ubuntu/workspace/specialist-php/functions.php on line 138
+[11-Oct-2018 13:32:38 UTC] PHP Stack trace:
+[11-Oct-2018 13:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0

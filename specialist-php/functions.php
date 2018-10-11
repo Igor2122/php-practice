@@ -15,7 +15,7 @@
 <div class="container mt-5">
 	<?php 
 		say($name, $h);
-		say('Archie', 2);
+		say(ucfirst('archie'), 2);
 		say('Guest');
 		say('Guest');
 		// calling funciton with a var, 
@@ -122,6 +122,21 @@
 			
 			callAbale("bar", 'igor');
 			
+			
+		?>
+	</div>
+	
+	<div class="mt-5 bg-success">
+		
+		<?php 
+			
+			//$date =  getdate(1439264085);// here we can pass timestamp and we can use it later on to see how long for expmpale the cusotmer was using our servies 
+			// OR WE CAN USE TIME!!
+			$date = time();
+			echo $date;
+			
+			// to set future time
+			$ftdate = mktime();
 			
 		?>
 	</div>
