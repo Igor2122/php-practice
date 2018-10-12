@@ -6,6 +6,7 @@
         ['link'=>'Contacts', 'href' => 'contacts.php'],
         ['link'=>'Multiply Table', 'href' => 'table.php'],
         ['link'=>'Functions', 'href' => 'functions.php'],
+        ['link'=>'Forms', 'href' => 'forms.php'],
         ['link'=>'Calculator', 'href' => 'calclator.php'],
         ];  
 
