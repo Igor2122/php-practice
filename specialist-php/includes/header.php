@@ -15,5 +15,13 @@
   <?php 
   	include 'includes/partials/_nav.php';
 
-    drawMenu($leftMenu);
+    
+    include 'includes/partials/_errors.php';
+      if(!drawMenu($leftMenu)){
+        echo DRAW_HEADER_ERROR;
+      }
+    
+    
+
+    
    

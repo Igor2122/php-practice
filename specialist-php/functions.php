@@ -120,9 +120,32 @@
 				$para($par);
 			}
 			
+
+			// sudo constants
 			callAbale("bar", 'igor');
+			echo "<br>";
+			echo __LINE__;
+			echo "<br>";
+			echo __FILE__;
+			echo "<br>";
+			echo __DIR__;
+			echo "<br>";
+			function ex(){
+				echo __FUNCTION__;
+			}
+			ex();
+
+			// Defined constants
+			// print_r(get_defined_constants(true));
 			
 			
+			// 
+			// GLOBAL - superglobal var 
+			// print_r($GLOBALS);
+
+			// print_r($_SERVER);
+			print_r($_FILES);
+
 		?>
 	</div>
 

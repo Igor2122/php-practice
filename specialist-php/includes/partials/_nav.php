@@ -1,4 +1,5 @@
     <?php
+    error_reporting(0);
       $leftMenu = [
         ['link'=>'Home', 'href' => 'index.php'],
         ['link'=>'About', 'href' => 'about.php'],
@@ -10,6 +11,10 @@
 
 
         function drawMenu ($menuArray, $vertical=true){
+          
+          if (!is_array($menuArray)) 
+            return false;
+          
           $style = '';
           if(!$vertical)
             $style = " style='display:inline; margin-right: 15px; '";
@@ -20,8 +25,11 @@
             echo "</li>";
           }
           echo "</ul>";
+
+          return true;
         }
 
+    
     ?> 
     
       

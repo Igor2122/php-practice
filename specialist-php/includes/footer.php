@@ -1,7 +1,21 @@
 <?php 
-    include 'includes/partials/_footer.php'
-    
+$year = strftime('%Y');
+
  ?>
+
+    <footer class="text-center">
+		<?php 
+		include 'includes/partials/_errors.php';
+			if(!drawMenu($leftMenu, false)){
+				echo DRAW_FOOTER_ERROR;
+			}
+		?>
+        <h5 class="">Copyright <?= $year?></h5>
+        <p>Powered with <?= $_SERVER['SERVER_SOFTWARE'] ?> <br>With PHP <?= PHP_VERSION ?><br> on <?= PHP_OS ?></p>
+    </footer>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
