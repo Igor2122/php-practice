@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<html>
+<?php 
+  // header of the website
+  include_once 'inc/header.php';
 
-<head>
-  <title>Сайт нашей школы</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  // date 
+  include_once 'inc/date.php';
 
-<body>
+  // menu 
+  include_once 'inc/menu.php';
+  
 
+ ?>
   <div id="header">
     <!-- Верхняя часть страницы -->
-    <img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
+    <img src="<?= $logo ?>"   alt="Наш логотип" class="logo" />
     <span class="slogan">приходите к нам учиться</span>
     <!-- Верхняя часть страницы -->
   </div>
 
   <div id="content">
     <!-- Заголовок -->
-    <h1>Добро пожаловать на наш сайт!</h1>
+    <h1>Сегодня  <?=$day . ', '. $greeting ?> Добро пожаловать на наш сайт!</h1>
     <!-- Заголовок -->
     <!-- Область основного контента -->
     <h3>Зачем мы ходим в школу?</h3>
@@ -39,15 +40,8 @@
     <h2>Навигация по сайту</h2>
     <!-- Меню -->
     <ul>
-      <li><a href='index.php'>Домой</a>
-      </li>
-      <li><a href='about.php'>О нас</a>
-      </li>
-      <li><a href='contact.php'>Контакты</a>
-      </li>
-      <li><a href='table.php'>Таблица умножения</a>
-      </li>
-      <li><a href='calc.php'>Калькулятор</a>
+      <li>
+        <a href='index.php'>Домой</a>
       </li>
     </ul>
     <!-- Меню -->

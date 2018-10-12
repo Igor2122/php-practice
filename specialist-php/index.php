@@ -10,9 +10,7 @@ ENDHEREDOC;
 
     
     
-    include  'includes/header.php';
-
-    
+    require  'includes/header.php';
     
     include 'includes/content.php';
     
@@ -20,6 +18,8 @@ ENDHEREDOC;
     include 'includes/arrays.php';
     
     include 'includes/loops.php';
+    
+    include 'includes/footer.php';
 
 
 
