@@ -1,7 +1,5 @@
 <?php 
     
-    
-    
 
 $information = <<<ENDHEREDOC
 this is my text 

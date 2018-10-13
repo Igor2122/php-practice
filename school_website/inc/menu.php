@@ -3,24 +3,15 @@
 $logo = 'img/igdeveloperslogo.png';
 
 
-// $leftMenu = [
-//         ['link'=>'Home', 'href' => 'index.php'],
-//         ['link'=>'About', 'href' => 'about.php'],
-//         ['link'=>'Contacts', 'href' => 'contact.php'],
-//         ['link'=>'Multiply Table', 'href' => 'table.php'],
-//         ['link'=>'Forms', 'href' => 'forms.php'],
-//         ['link'=>'Calculator', 'href' => 'calc.php'],
-//         ];  
-
-        $leftMenu = [
-        ['link'=>'Home', 'id' => ''],
-        ['link'=>'About', 'id' => 'about'],
-        ['link'=>'Contacts', 'id' => 'contact'],
-        ['link'=>'Multiply Table', 'id' => 'table'],
-        // ['link'=>'Forms', 'href' => 'forms.php'],
-        ['link'=>'Calculator', 'id' => 'calc.php'],
+$leftMenu = [
+        ['link'=>'Home', 'href' => 'index.php'],
+        ['link'=>'About', 'href' => 'about.php'],
+        ['link'=>'Contacts', 'href' => 'contact.php'],
+        ['link'=>'Multiply Table', 'href' => 'table.php'],
+        ['link'=>'Forms', 'href' => 'forms.php'],
+        ['link'=>'Calculator', 'href' => 'calc.php'],
         ];  
- 
+
     
     function drawMenu ($menuArray, $id=''){
         echo "<div id='$id'>";

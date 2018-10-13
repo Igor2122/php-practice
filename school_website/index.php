@@ -5,27 +5,6 @@
   // date 
   include_once 'inc/date.php';
 
-  // menu 
-  include_once 'inc/menu.php';
-  $welcome = "hi there";
-  $title = 'Сайт нашей школы';
-  $header = "$welcome, Гость!";
-  $id = strtolower(strip_tags(trim($_GET['id']))); switch($id){
-  case 'about':
-  $title = 'О сайте'; $header = 'О нашем сайте'; break;
-    case 'contact':
-      $title = 'Контакты';
-      $header = 'Обратная связь';
-      break;
-    case 'table':
-      $title = 'Таблица умножения';
-      $header = 'Таблица умножения';
-      break;
-    case 'calc':
-      $title = 'Он-лайн калькулятор';
-      $header = 'Калькулятор';
-      break;
-}  
 
  ?>
   <div id="header">
@@ -57,7 +36,7 @@
   <?php 
     include_once 'inc/menu.php';
     
-    // drawMenu($leftMenu, 'nav');
+    drawMenu($leftMenu, 'nav');
   ?>
     <!-- Меню -->
     <!-- Навигация -->
@@ -67,7 +46,7 @@
     &copy; Супер Мега Веб-мастер, 2000 &ndash; 2015
     <!-- Нижняя часть страницы -->
     <?php 
-      // drawMenu($leftMenu, 'nav-horizontal');
+      drawMenu($leftMenu, 'nav-horizontal');
     ?>
   </div>
 </body>
