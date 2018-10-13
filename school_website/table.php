@@ -37,6 +37,27 @@
       <br />
       <input type='submit' value='Создать' />
     </form>
+    
+    <?php 
+      
+      $cols = 10;
+      $rows = 10;
+      
+      echo "<table border='1' width='200'>";
+        for($tr = 1; $tr <= $rows; $tr++){
+          echo "<tr>";
+            for($td = 1; $td <= $cols; $td++){
+              echo "<td>" . $tr * $TD . "</td>";
+            }
+          echo "</tr>";
+        }
+      echo "</table>";
+    
+    ?>
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- Таблица -->
     <table border='1' width="200">
       <tr>
@@ -78,23 +99,11 @@
     <!-- Таблица -->
     <!-- Область основного контента -->
   </div>
-  <div id="nav">
-    <h2>Навигация по сайту</h2>
-    <!-- Меню -->
-    <ul>
-      <li><a href='index.php'>Домой</a>
-      </li>
-      <li><a href='about.php'>О нас</a>
-      </li>
-      <li><a href='contact.php'>Контакты</a>
-      </li>
-      <li><a href='table.php'>Таблица умножения</a>
-      </li>
-      <li><a href='calc.php'>Калькулятор</a>
-      </li>
-    </ul>
-    <!-- Меню -->
-  </div>
+  <?php 
+    include_once 'inc/menu.php';
+    
+    drawMenu($leftMenu, 'nav');
+  ?>
   <div id="footer">
     <!-- Нижняя часть страницы -->
     &copy; Супер Мега Веб-мастер, 2000 &ndash; 2015

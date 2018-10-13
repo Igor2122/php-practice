@@ -129,3 +129,23 @@
 [11-Oct-2018 13:32:38 UTC] PHP Warning:  Illegal string offset 'weekday' in /home/ubuntu/workspace/specialist-php/functions.php on line 138
 [11-Oct-2018 13:32:38 UTC] PHP Stack trace:
 [11-Oct-2018 13:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/specialist-php/functions.php:0
+[13-Oct-2018 15:26:13 Europe/Prague] PHP Warning:  Missing argument 2 for drawMenu(), called in /home/ubuntu/workspace/school_website/index.php on line 50 and defined in /home/ubuntu/workspace/school_website/inc/menu.php on line 16
+[13-Oct-2018 15:26:13 Europe/Prague] PHP Stack trace:
+[13-Oct-2018 15:26:13 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[13-Oct-2018 15:26:13 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:50
+[13-Oct-2018 15:26:21 Europe/Prague] PHP Warning:  Missing argument 2 for drawMenu(), called in /home/ubuntu/workspace/school_website/index.php on line 50 and defined in /home/ubuntu/workspace/school_website/inc/menu.php on line 16
+[13-Oct-2018 15:26:21 Europe/Prague] PHP Stack trace:
+[13-Oct-2018 15:26:21 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[13-Oct-2018 15:26:21 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:50
+[13-Oct-2018 15:26:27 Europe/Prague] PHP Warning:  Missing argument 2 for drawMenu(), called in /home/ubuntu/workspace/school_website/index.php on line 50 and defined in /home/ubuntu/workspace/school_website/inc/menu.php on line 16
+[13-Oct-2018 15:26:27 Europe/Prague] PHP Stack trace:
+[13-Oct-2018 15:26:27 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[13-Oct-2018 15:26:27 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:50
+[13-Oct-2018 15:26:29 Europe/Prague] PHP Warning:  Missing argument 2 for drawMenu(), called in /home/ubuntu/workspace/school_website/index.php on line 50 and defined in /home/ubuntu/workspace/school_website/inc/menu.php on line 16
+[13-Oct-2018 15:26:29 Europe/Prague] PHP Stack trace:
+[13-Oct-2018 15:26:29 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[13-Oct-2018 15:26:29 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:50
+[13-Oct-2018 15:28:24 Europe/Prague] PHP Warning:  Missing argument 2 for drawMenu(), called in /home/ubuntu/workspace/school_website/index.php on line 52 and defined in /home/ubuntu/workspace/school_website/inc/menu.php on line 16
+[13-Oct-2018 15:28:24 Europe/Prague] PHP Stack trace:
+[13-Oct-2018 15:28:24 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[13-Oct-2018 15:28:24 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:52

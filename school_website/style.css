@@ -74,6 +74,14 @@ body {
   text-align: justify;
 }
 
+#nav-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+}
+
 h1 {
   font: 150% Georgia, "Times New Roman", Times, serif;
 }
