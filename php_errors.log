@@ -149,3 +149,14 @@
 [13-Oct-2018 15:28:24 Europe/Prague] PHP Stack trace:
 [13-Oct-2018 15:28:24 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
 [13-Oct-2018 15:28:24 Europe/Prague] PHP   2. drawMenu() /home/ubuntu/workspace/school_website/index.php:52
+[14-Oct-2018 15:09:46 UTC] PHP Warning:  include(cookies/coolies.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 3
+[14-Oct-2018 15:09:46 UTC] PHP Stack trace:
+[14-Oct-2018 15:09:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[14-Oct-2018 15:09:46 UTC] PHP Warning:  include(): Failed opening 'cookies/coolies.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 3
+[14-Oct-2018 15:09:46 UTC] PHP Stack trace:
+[14-Oct-2018 15:09:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[14-Oct-2018 15:37:35 UTC] PHP Warning:  unserialize() expects parameter 1 to be string, array given in /home/ubuntu/workspace/school_website/cookies/cookies.php on line 17
+[14-Oct-2018 15:37:35 UTC] PHP Stack trace:
+[14-Oct-2018 15:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[14-Oct-2018 15:37:35 UTC] PHP   2. include() /home/ubuntu/workspace/school_website/test.php:3
+[14-Oct-2018 15:37:35 UTC] PHP   3. unserialize() /home/ubuntu/workspace/school_website/cookies/cookies.php:17
