@@ -4,6 +4,9 @@
 
   // date 
   include_once 'inc/date.php';
+  
+  // img routes
+  include_once 'inc/img-routes.php';
 
 
  ?>
@@ -16,19 +19,27 @@
 
   <div id="content">
     <!-- Заголовок -->
-    <h1>Сегодня  <?=$day . ', '. $greeting ?> Добро пожаловать на наш сайт!</h1>
+    <h1>Сегодня  <?=$day . ', '. $greeting ?> </h1>
+    <?php 
+      include 'cookies/cookies.php'; 
+      if($visitCounter == 1){
+        echo "Hello Guest you visited our page for the first time, Wellcome !";
+      } else {
+        echo "Hello User, you have visited our site $visitCounter  times <br> And your last visit was on <strong> \"$lastVisit\"</strong>";
+      }
+    ?>
     <!-- Заголовок -->
     <!-- Область основного контента -->
-    <h3>Зачем мы ходим в школу?</h3>
+    <h3>Lorem ipsum dolor sit amet.</h3>
     <p>
-      У нас каждую минуту что-то происходит и кипит жизнь. Проходят уроки и шумят перемены, кто-то отвечает у доски, кто-то отчаянно зубрит перед контрольной пройденный материал, кому-то ставят «пятерку» за сочинение, кого-то ругают за непрочитанную книгу, на школьной спортивной площадке ребята играют в футбол, а девочки – в волейбол, некоторые готовятся к соревнованиям, другие участвуют в репетициях праздников…
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae tenetur quisquam suscipit laboriosam, pariatur quo quaerat earum culpa magni consequuntur.
     </p>
-    <h3>Что такое ЕГЭ?</h3>
+    <h3>Lorem ipsum dolor sit amet.?</h3>
     <p>
-      Аббревиатура ЕГЭ расшифровывается как "Единый Государственный Экзамен". Почему "единый"? ЕГЭ одновременно является и вступительным экзаменом в ВУЗ и итоговой оценкой каждого выпускника школы. К тому же на всей территории России используются однотипные задания и единая система оценки.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quia odio accusamus molestiae voluptatem. Aspernatur sapiente quo quae ullam numquam quos possimus fugit, porro consequatur in. Repudiandae animi iste omnis.
     </p>
     <p>
-      Результаты ЕГЭ оцениваются по 100-балльной и пятибалльной системам и заносятся в свидетельство о результатах единого государственного экзамена. Срок действия данного документа истекает 31 декабря года, следующего за годом его выдачи, поэтому у абитуриентов есть возможность поступать в ВУЗы со свидетельством ЕГЭ в течение двух лет.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus id voluptatem reprehenderit, ipsum quis eos beatae cupiditate saepe eligendi velit quam cumque, nemo adipisci fugit pariatur odio esse aspernatur, dolore nulla. Assumenda mollitia suscipit delectus. Ipsum neque qui accusamus itaque ex! Esse error pariatur, at animi nulla, expedita optio autem.
     </p>
     <!-- Область основного контента -->
   </div>
