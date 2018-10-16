@@ -180,3 +180,41 @@
 [15-Oct-2018 06:40:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
 [15-Oct-2018 06:40:09 UTC] PHP   2. include() /home/ubuntu/workspace/school_website/test.php:3
 [15-Oct-2018 06:40:09 UTC] PHP   3. set_error_handler() /home/ubuntu/workspace/school_website/cookies/cookies.php:42
+[15-Oct-2018 09:22:35 Europe/Prague] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/school_website/cookies/cookies.php on line 40
+[15-Oct-2018 09:22:35 Europe/Prague] PHP Stack trace:
+[15-Oct-2018 09:22:35 Europe/Prague] PHP   1. {main}() /home/ubuntu/workspace/school_website/index.php:0
+[15-Oct-2018 12:42:30 UTC] PHP Warning:  include_once(headers/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 4
+[15-Oct-2018 12:42:30 UTC] PHP Stack trace:
+[15-Oct-2018 12:42:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[15-Oct-2018 12:42:30 UTC] PHP Warning:  include_once(): Failed opening 'headers/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 4
+[15-Oct-2018 12:42:30 UTC] PHP Stack trace:
+[15-Oct-2018 12:42:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 05:10:01 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/ubuntu/workspace/school_website/headers/headers.php on line 22
+[16-Oct-2018 05:10:01 UTC] PHP Stack trace:
+[16-Oct-2018 05:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 05:10:01 UTC] PHP   2. include_once() /home/ubuntu/workspace/school_website/test.php:4
+[16-Oct-2018 05:10:01 UTC] PHP   3. strip_tags() /home/ubuntu/workspace/school_website/headers/headers.php:22
+[16-Oct-2018 11:36:19 UTC] PHP Warning:  include_once(headers/caching.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 6
+[16-Oct-2018 11:36:19 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 11:36:19 UTC] PHP Warning:  include_once(): Failed opening 'headers/caching.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 6
+[16-Oct-2018 11:36:19 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 11:36:19 UTC] PHP Warning:  include_once(headers/hash.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 7
+[16-Oct-2018 11:36:19 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 11:36:19 UTC] PHP Warning:  include_once(): Failed opening 'headers/hash.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 7
+[16-Oct-2018 11:36:19 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 11:36:55 UTC] PHP Warning:  include_once(headers/caching.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 6
+[16-Oct-2018 11:36:55 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 11:36:55 UTC] PHP Warning:  include_once(): Failed opening 'headers/caching.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 6
+[16-Oct-2018 11:36:55 UTC] PHP Stack trace:
+[16-Oct-2018 11:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 12:31:39 UTC] PHP Warning:  include_once(sessions/session.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/school_website/test.php on line 8
+[16-Oct-2018 12:31:39 UTC] PHP Stack trace:
+[16-Oct-2018 12:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
+[16-Oct-2018 12:31:39 UTC] PHP Warning:  include_once(): Failed opening 'sessions/session.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/school_website/test.php on line 8
+[16-Oct-2018 12:31:39 UTC] PHP Stack trace:
+[16-Oct-2018 12:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/school_website/test.php:0
