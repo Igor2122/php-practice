@@ -1,20 +1,20 @@
 <?php 
 
-// session_start();
+session_start();
 
 
-// if($_SERVER["REQUEST_METHOD"] == "POST"){
-//     $name = strip_tags($_POST["name"]);
-//     $age = $_POST["age"] * 1;
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $name = strip_tags($_POST["name"]);
+    $age = $_POST["age"] * 1;
     
-//     $_SESSION["name"] = $name;
-//     $_SESSION["age"] = $age;
+    $_SESSION["name"] = $name;
+    $_SESSION["age"] = $age;
     
-//     echo $name, $age;
-// } else {
-//     $name = $_SESSION["name"];
-//     $age = $_SESSION["age"];
-// }
+    echo $name, $age;
+} else {
+    $name = $_SESSION["name"];
+    $age = $_SESSION["age"];
+}
 ?>
 
 <!DOCTYPE html>

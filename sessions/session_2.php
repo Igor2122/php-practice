@@ -1,8 +1,8 @@
 <?php 
 
-// session_start();
-// $name = $_SESSION["name"];
-// $age = $_SESSION["age"];
+session_start();
+$name = $_SESSION["name"];
+$age = $_SESSION["age"];
 
 ?>
 
