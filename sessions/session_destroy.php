@@ -1,12 +1,12 @@
-<? session_start() ?>
+<?php session_start() ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Закрыть сессию</title>
+	<title>Session Destroy</title>
 </head>
 <body>
-<h1>Сессия закрыта</h1>
+<h1>Session Destroy</h1>
 </body>
 </html>
-<? session_destroy() ?>
+<?php session_destroy() ?>

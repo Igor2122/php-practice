@@ -10,6 +10,7 @@ $leftMenu = [
         ['link'=>'Multiply Table', 'href' => 'table.php'],
         ['link'=>'Forms', 'href' => 'forms.php'],
         ['link'=>'Calculator', 'href' => 'calc.php'],
+        ['link'=>'Test', 'href' => 'test/index.php'],
         ];  
 
     
