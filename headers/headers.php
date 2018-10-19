@@ -3,10 +3,7 @@
         // 302 - temporary moved resource 
         
         // header("Location: http://github.com");
-    
-    
-    
-    
+ 
 
 ?>
 
