@@ -11,6 +11,7 @@ $leftMenu = [
         ['link'=>'Forms', 'href' => 'forms.php'],
         ['link'=>'Calculator', 'href' => 'calc.php'],
         ['link'=>'Test', 'href' => 'test/index.php'],
+        ['link'=>'Guest Book', 'href' => 'gbook/gbook.php'],
         ];  
 
     
