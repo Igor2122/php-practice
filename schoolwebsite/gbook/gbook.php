@@ -3,11 +3,12 @@
 
 	define("DB_HOST", "localhost");
 	define("DB_LOGIN", "root");
-	define("DB_PASSWORD", "");
+	define("DB_PASSWORD", "root");
 	define("DB_NAME", "gbook");
 
 	// Connecting to DB
 	$link = mysqli_connect(DB_HOST, DB_LOGIN, DB_PASSWORD, DB_NAME);
+
 
 	// checking to see if all inputs are set
 	if(isset($_POST['name'])){
@@ -25,10 +26,12 @@
 		
 		// Sending values to DB
 		mysqli_query($link, $dbsadd);
-		}  elseif($_SERVER["REQUEST_METHOD"] == "GET"){
-	   		header("Location:" . $_SERVER["PHP_SELF"]);
-		    exit;
-		}
+
+		// prevent form submission on page reload
+		header("Location: " . $_SERVER['REQUEST_URI']);
+   		exit();
+
+		}  
 		
 	} else {
 		echo 'enter your name';
@@ -108,18 +111,20 @@
 		ORDER  BY  id  DESC";
 		// echo $sql; // tested all working 
 	$res = mysqli_query($link, $sql);	
+
 		
 ?>
 
 <p>You have left: <?= count($res);  ?> of comments on our webiste</p>
 <div class="flex">
 	<?php foreach($res as $post) :?>
+		<?php echo count($post)-1 ?>
 		<div class="card">
 		<div class="date-time">
 		  <h2><?= $post['datetime']?></h2>
 		  <small><?= $post['id']?></small>
 		</div>
-		  <img src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16" alt="" />
+		  <img src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16" alt="img icon" />
 		  <h1><?php 
 		  if(!$post['name'])
 			echo 'No name';
