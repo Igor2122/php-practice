@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.25, for Win32 (x86)
 --
--- Host: localhost    Database: gbook
+-- Host: localhost    Database: eshop
 -- ------------------------------------------------------
 -- Server version	5.5.25-log
 
@@ -16,29 +16,58 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `msgs`
+-- Table structure for table `catalog`
 --
 
-DROP TABLE IF EXISTS `msgs`;
+DROP TABLE IF EXISTS `catalog`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `msgs` (
+CREATE TABLE `catalog` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(25) NOT NULL DEFAULT '',
-  `email` varchar(50) NOT NULL DEFAULT '',
-  `msg` text,
-  `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `title` varchar(255) NOT NULL DEFAULT 'Без названия',
+  `author` varchar(255) DEFAULT NULL,
+  `pubyear` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `msgs`
+-- Dumping data for table `catalog`
 --
 
-LOCK TABLES `msgs` WRITE;
-/*!40000 ALTER TABLE `msgs` DISABLE KEYS */;
-/*!40000 ALTER TABLE `msgs` ENABLE KEYS */;
+LOCK TABLES `catalog` WRITE;
+/*!40000 ALTER TABLE `catalog` DISABLE KEYS */;
+/*!40000 ALTER TABLE `catalog` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `orders`
+--
+
+DROP TABLE IF EXISTS `orders`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `author` varchar(255) NOT NULL DEFAULT '',
+  `pubyear` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `quantity` int(11) NOT NULL DEFAULT 1,
+  `orderid` varchar(50) NOT NULL DEFAULT '',
+  `datetime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `orders`
+--
+
+LOCK TABLES `orders` WRITE;
+/*!40000 ALTER TABLE `orders` DISABLE KEYS */;
+/*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +79,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-07-01 13:59:11
+-- Dump completed on 2012-07-06 17:45:13
