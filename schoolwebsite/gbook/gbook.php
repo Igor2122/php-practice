@@ -11,7 +11,7 @@
 
 
 	// checking to see if all inputs are set
-	if(isset($_POST['name'])){
+	if(!empty($_POST['name'] || !empty($_POST['email'] || !empty($_POST['msg'])))){
 		// Getting the form inputs 
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$name = strip_tags($_POST["name"]);
@@ -31,10 +31,11 @@
 		header("Location: " . $_SERVER['REQUEST_URI']);
    		exit();
 
+   		$alert = '';
 		}  
 		
 	} else {
-		echo 'enter your name';
+		 $alert = 'Please input the credentials';
 	}
 	
 
@@ -95,15 +96,13 @@
 	
 
 <h3>Please leave your comments in our guest book</h3>
-
-	<form method="post" action="<?= $_SERVER['REQUEST_URI']?>">
+<?= $alert; ?>
+<form method="post" action="<?= $_SERVER['REQUEST_URI']?>">
 	Name: <br /><input type="text" name="name" /><br />
 	Email: <br /><input type="text" name="email" /><br />
 	Message: <br /><textarea name="msg"></textarea><br />
 	<br />
-	
 	<input type="submit" value="Send!" />
-
 </form>
 <?php
 	$sql = "SELECT  id,  name,  email,  msg,  UNIX_TIMESTAMP(datetime)  as  dt 
@@ -111,14 +110,12 @@
 		ORDER  BY  id  DESC";
 		// echo $sql; // tested all working 
 	$res = mysqli_query($link, $sql);	
-
 		
 ?>
+<p>You have left: <?= $counter;  ?> of comments on our webiste</p>
 
-<p>You have left: <?= count($res);  ?> of comments on our webiste</p>
 <div class="flex">
 	<?php foreach($res as $post) :?>
-		<?php echo count($post)-1 ?>
 		<div class="card">
 		<div class="date-time">
 		  <h2><?= $post['datetime']?></h2>
@@ -142,6 +139,5 @@
 		</div>
 	<?php endforeach; ?>
 </div>
-
 </body>
 </html>
