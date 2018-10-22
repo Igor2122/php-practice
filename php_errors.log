@@ -1,0 +1,6 @@
+[21-Oct-2018 11:33:48 UTC] PHP Warning:  require(inc/lib.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/eshop/catalog.php on line 3
+[21-Oct-2018 11:33:48 UTC] PHP Stack trace:
+[21-Oct-2018 11:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eshop/catalog.php:0
+[21-Oct-2018 11:33:48 UTC] PHP Fatal error:  require(): Failed opening required 'inc/lib.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/eshop/catalog.php on line 3
+[21-Oct-2018 11:33:48 UTC] PHP Stack trace:
+[21-Oct-2018 11:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/eshop/catalog.php:0
