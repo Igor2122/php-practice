@@ -1,18 +1,7 @@
 <?php
 /* Min Settings */
 
-	define("DB_HOST", "localhost");
-	define("DB_LOGIN", "root");
-	define("DB_PASSWORD", "");
-	define("DB_NAME", "gbook");
-
-	if(mysqli_connect_error()){
-		echo "OOPS, something went wrong" . mysqli_connect_error();;
-	} else {
-	// Connecting to DB
-		$link = mysqli_connect(DB_HOST, DB_LOGIN, DB_PASSWORD, DB_NAME);
-	}
-
+	include_once 'inc/db.php';
 
 	// checking to see if all inputs are set
 	if(!empty($_POST['name'] || !empty($_POST['email'] || !empty($_POST['msg'])))){
@@ -28,7 +17,7 @@
 	}
 	
 	
-	// Deleting database enries
+	// Deleting database entries
 	include_once 'inc/deletepost.php';
 	
 	
@@ -55,7 +44,7 @@
 		// pull the db query		
 		$res = mysqli_query($link, $sql);
 ?>
-<p>You have left: <?= $counter;  ?> of comments on our webiste</p>
+<p>You have left: of comments on our webiste</p>
 
 <div class="flex">
 	<?php foreach($res as $post) :?>
