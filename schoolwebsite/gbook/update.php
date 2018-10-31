@@ -1,7 +1,7 @@
 
 
 <?php 
-
+			include_once 'layout/header.php';
 			// DB connection 
 			include_once 'inc/db.php';
 			
