@@ -6,36 +6,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Поступившие заказы</title>
+	<title>Received Orders</title>
 	<meta charset="utf-8">
 </head>
 <body>
-<h1>Поступившие заказы:</h1>
+<h1>Received Orders:</h1>
 <?php
 
 ?>
 <hr>
-<h2>Заказ номер: </h2>
-<p><b>Заказчик</b>: </p>
+<h2>Order number: </h2>
+<p><b>Cutomer</b>: </p>
 <p><b>Email</b>: </p>
-<p><b>Телефон</b>: </p>
-<p><b>Адрес доставки</b>: </p>
-<p><b>Дата размещения заказа</b>: </p>
+<p><b>Telephone number:</b>: </p>
+<p><b>Shipping Adress:</b>: </p>
+<p><b>Order Date</b>: </p>
 
-<h3>Купленные товары:</h3>
+<h3>Purchased Goods:</h3>
 <table border="1" cellpadding="5" cellspacing="0" width="90%">
 <tr>
-	<th>N п/п</th>
-	<th>Название</th>
-	<th>Автор</th>
-	<th>Год издания</th>
-	<th>Цена, руб.</th>
-	<th>Количество</th>
+	<th>Number</th>
+	<th>Name</th>
+	<th>Author</th>
+	<th>Publication Year</th>
+	<th>Price $.</th>
+	<th>Quantity</th>
 </tr>
 
 
 </table>
-<p>Всего товаров в заказе на сумму: руб.</p>
+<p>Total Orders Ammount: $.</p>
 
 </body>
 </html>

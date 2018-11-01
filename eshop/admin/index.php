@@ -5,17 +5,17 @@ require_once "secure/secure.inc.php";
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Админка</title>
+	<title>Admin Page</title>
 	<meta charset="utf-8">
 </head>
 <body>
-	<h1>Администрирование магазина</h1>
-	<h3>Доступные действия:</h3>
+	<h1>Manage your shop</h1>
+	<h3>Actions</h3>
 	<ul>
-		<li><a href='add2cat.php'>Добавление товара в каталог</a></li>
-		<li><a href='orders.php'>Просмотр готовых заказов</a></li>
-		<li><a href='secure/create_user.php'>Добавить пользователя</a></li>
-		<li><a href='index.php?logout'>Завершить сеанс</a></li>
+		<li><a href='add2cat.php'>Add Product to Catalogue</a></li>
+		<li><a href='orders.php'>Prepared orders</a></li>
+		<li><a href='secure/create_user.php'>Add User</a></li>
+		<li><a href='index.php?logout'>Finish Session</a></li>
 	</ul>
 </body>
 </html>

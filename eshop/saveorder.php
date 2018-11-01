@@ -6,10 +6,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Сохранение данных заказа</title>
+	<title>Order Save</title>
 </head>
 <body>
-	<p>Ваш заказ принят.</p>
-	<p><a href="catalog.php">Вернуться в каталог товаров</a></p>
+	<p>Your Order Received.</p>
+	<p><a href="catalog.php">Go to Home Page</a></p>
 </body>
 </html>
