@@ -30,7 +30,7 @@
 		<td><?= $item['pubyear']?></td> 
 		<td><?= $item['price']?></td> 
 		<td>
-			<a href="https://php-practice-igdevelopers.c9users.io/eshop/add2basket.php? $id=<?= $item['id'] ?> ">Add to Busket</a> 
+			<a href="https://php-practice-igdevelopers.c9users.io/eshop/add2basket.php? id=<?= $item['id'] ?> ">Add to Busket</a> 
 		</td>
 		
 	</tr>
