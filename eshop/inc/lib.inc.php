@@ -19,6 +19,7 @@ function addItemToCatalog ($title, $author , $pubyear , $price){
     
 }
 
+
 function selectAllItems(){
     
     global $link;
@@ -31,4 +32,29 @@ function selectAllItems(){
         mysqli_free_result($result);
         return $items;
     }
+}
+
+
+function saveBasket (){
+    global $basket; 
+    
+    // we serilize it in order to save it cookies and baseicode it to protect from information loosing
+    $basket = base64_encode(serialize($basket)); 
+    setcookie('basket', $basket, 0x7FFFFFFF); // creating cookies and setting it up for long time here 
+}
+
+function basketInint (){
+    global $basket, $count;
+    
+    if(!isset($_COOKIE['basket'])){
+        $basket = ['orderid' => uniqid()];
+        saveBasket();
+    } else{ 
+        $basket = unserialize(base64_decode($_COOKIE['basket'])); 
+        $count = count($basket) -1; 
+    }
+}
+
+function add2Basket($id) {
+    
 }
