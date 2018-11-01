@@ -2,6 +2,16 @@
 	// подключение библиотек
 	require "inc/lib.inc.php";
 	require "inc/config.inc.php";
+	
+		print_r($basket);
+		
+		
+		if ($_SERVER["REQUEST_METHOD"] == "GET") {
+	
+			
+		$id = $_GET['id'];
+	echo $id;
+		}
 ?>
 <!DOCTYPE html>
 <html>

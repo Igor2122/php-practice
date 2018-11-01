@@ -56,5 +56,7 @@ function basketInint (){
 }
 
 function add2Basket($id) {
-    
+    global $basket;
+    $basket['id'] = 1;
+    saveBasket();
 }
